@@ -15,12 +15,12 @@ a = 5
 b = 2
 c = 6
 
-if a > b:
+if a > b: # if True we eliminate B
   if a > c:
     print(a)
   else:
     print(c)
-else:
+else: # if was False we eliminated A
   if b > c:
     print(b)
   else:
